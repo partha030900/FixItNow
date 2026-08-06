@@ -1,3 +1,4 @@
+
 model TechnicianProfile {
   id          String   @id @default(uuid())
   userId      String   @unique
@@ -10,11 +11,12 @@ model TechnicianProfile {
   avgRating   Float    @default(0)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
-
   services      Service[]
   availability  Availability[]
   bookings      Booking[] @relation("TechnicianBookings")
   reviews       Review[]
 
+ 
   @@map("technician_profiles")
+
 }
