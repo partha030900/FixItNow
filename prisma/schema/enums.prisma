@@ -8,21 +8,26 @@ enum BookingStatus {
   CANCELLED
 }
 
+
 enum Role {
   CUSTOMER
   TECHNICIAN
   ADMIN
 }
 
+
 enum UserStatus {
   ACTIVE
   BANNED
 }
+
+
 enum PaymentStatus {
   PENDING
   COMPLETED
   FAILED
 }
+
 
 enum PaymentProvider {
   STRIPE
