@@ -11,9 +11,9 @@ model Booking {
   address      String?
   createdAt    DateTime      @default(now())
   updatedAt    DateTime      @updatedAt
-
   payment Payment?
   review  Review?
 
-  @@map("bookings")
+ 
+ @@map("bookings")
 }
