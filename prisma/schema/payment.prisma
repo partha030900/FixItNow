@@ -11,5 +11,6 @@ model Payment {
   paidAt        DateTime?
   createdAt     DateTime        @default(now())
 
+ 
   @@map("payments")
 }
