@@ -6,5 +6,6 @@ model Availability {
   startTime    String   
   endTime      String   
 
-  @@map("availabilities")
+  
+@@map("availabilities")
 }
