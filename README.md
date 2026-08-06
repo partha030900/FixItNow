@@ -5,7 +5,7 @@ FixItNow is a home service booking platform where customers can book technicians
 ## Live API
 
 Vercel Deployment:
-https://your-vercel-url.vercel.app
+https://fixitnow-mauve.vercel.app/
 
 ## GitHub Repository
 
